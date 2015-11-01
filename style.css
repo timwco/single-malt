@@ -685,8 +685,8 @@ th {
     font-size: 42px;
   }
 }
-.site-title.lato-black {
-  font-family: 'Lato', sans-serif;
+.site-title.'Nunito', sans-serif-black {
+  font-family: 'Nunito', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -821,7 +821,7 @@ th {
 }
 
 .primary-navigation {
-  font-family: lato;
+  font-family: 'Nunito', sans-serif;
   /* Ensure old browsers get styled. */
 }
 .primary-navigation.active {
@@ -1195,7 +1195,7 @@ th {
   }
 }
 #sidebar .widget {
-  font-family: Georgia;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
   line-height: 21px;
   color: #888888;
@@ -1252,7 +1252,7 @@ th {
   border-color: inherit;
 }
 #sidebar .widget form p {
-  font-family: Georgia;
+  font-family: 'Nunito', sans-serif;
   color: #888;
 }
 #sidebar .widget.grofile h4 {
@@ -1266,7 +1266,7 @@ th {
 }
 #sidebar .widget-title {
   font-size: 14px;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
   color: #222222;
   text-transform: none;
@@ -1348,7 +1348,10 @@ article {
 article h1, article h2, article h3, article h4, article h5, article h6 {
   margin: 30px 0 20px 0;
   text-transform: uppercase;
-  font-family: Lato, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+  letter-spacing: -0.008em;
+  line-height: 1.222;
 }
 article .post-bottom {
   max-width: 700px;
@@ -1369,9 +1372,9 @@ article .post-bottom {
   }
 }
 article .post-content {
-  font-size: 15px;
-  line-height: 1.55em;
-  font-family: Georgia;
+  font-size: 17px;
+  line-height: 1.64706;
+  font-family: 'Nunito', sans-serif;
 }
 article .post-content > *:first-child {
   margin-top: 30px;
@@ -1404,7 +1407,7 @@ article .post-content a:hover {
   border-color: #000;
 }
 article .post-content .wp-caption {
-  font-family: lato;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.6em;
   background-color: #eee;
   font-size: 13px;
@@ -1435,7 +1438,7 @@ article .post-content .alignright {
 }
 article table {
   width: 100%;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   border: 0;
   border-collapse: collapse;
 }
@@ -1475,7 +1478,7 @@ article .tags-links {
 }
 article .tags-links p span {
   font-weight: bold;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-size: 11px;
 }
 article .tags-links a {
@@ -1923,7 +1926,7 @@ article:not(.portfolio-post) .full-image {
   font-weight: normal;
   font-size: 13px;
   line-height: 16px;
-  font-family: Lato, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 #main .post-meta a {
   border-bottom: 1px solid #ccc;
@@ -1967,7 +1970,7 @@ article:not(.portfolio-post) .full-image {
   margin: 1em 0;
 }
 #main fieldset, #main form {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   color: #222;
   margin-top: 20px;
 }
@@ -2035,7 +2038,7 @@ article:not(.portfolio-post) .full-image {
   display: none;
 }
 .post.quote {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-style: italic;
   font-size: 26px;
   line-height: 37px;
@@ -2117,7 +2120,7 @@ article:not(.portfolio-post) .full-image {
 @media (min--moz-device-pixel-ratio: 1.3), (-o-min-device-pixel-ratio: 2.6 / 2), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
   #page #main form .search-submit {
     /* on retina, use image that's scaled by 2 */
-    background-image: url("search@2x.png");
+    background-image: url("images/search-2x.png");
     background-size: 13px 13px;
   }
 }
@@ -2126,7 +2129,7 @@ article:not(.portfolio-post) .full-image {
   border-radius: 94px;
   background: #FBFBFB;
   border: 1px solid #E3E3E3;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
   color: #CCCCCC;
   line-height: 16px;
@@ -2475,7 +2478,7 @@ article:not(.portfolio-post) .full-image {
   max-width: auto;
 }
 .comments-area #cancel-comment-reply-link {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   color: #AAA;
   text-transform: none;
   font-weight: normal;
@@ -2503,7 +2506,7 @@ article:not(.portfolio-post) .full-image {
   position: relative;
 }
 .comments-area .comment .comment-content {
-  font-family: Georgia;
+  font-family: 'Nunito', sans-serif;
   font-size: 15px;
   line-height: 24px;
 }
@@ -2543,7 +2546,7 @@ article:not(.portfolio-post) .full-image {
   color: #AAA;
 }
 .comments-area .comment-author, .comments-area .comment-author a {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-family: 700;
   font-size: 15px;
   color: #222222;
@@ -2564,7 +2567,7 @@ article:not(.portfolio-post) .full-image {
   height: 42px;
 }
 .comments-area .comment-metadata {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
   color: #AAAAAA;
   line-height: 2em;
@@ -2583,7 +2586,7 @@ article:not(.portfolio-post) .full-image {
   padding: 11px 14px;
 }
 .comments-area .comment-button {
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 14px;
   border-radius: 40px;
@@ -2645,7 +2648,7 @@ article:not(.portfolio-post) .full-image {
   margin-top: -10px;
 }
 .comments-area .comment-form .comment-subscription-form {
-  font-family: Georgia;
+  font-family: 'Nunito', sans-serif;
   font-size: 15px;
   color: #666;
 }
@@ -2897,7 +2900,7 @@ article:not(.portfolio-post) .full-image {
 .portfolio-post .static-permalink .filed-under {
   display: inline-block;
   color: #aaa;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
 }
 .portfolio-post .static-permalink .filed-under:before {
@@ -2906,7 +2909,7 @@ article:not(.portfolio-post) .full-image {
 }
 .portfolio-post .static-permalink a {
   color: #aaa;
-  font-family: Lato;
+  font-family: 'Nunito', sans-serif;
   font-size: 13px;
   border-bottom: 1px solid #CCC;
 }
@@ -2942,7 +2945,7 @@ article:not(.portfolio-post) .full-image {
 }
 .archive .archive-item .post-summary,
 .search .archive-item .post-summary {
-  font-family: Georgia;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.6em;
   font-size: 15px;
 }
@@ -3020,7 +3023,7 @@ article:not(.portfolio-post) .full-image {
 }
 .archive .continue-link,
 .search .continue-link {
-  font-family: Lato, sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 12px;
   line-height: 15px;
   background: #222;
@@ -3891,8 +3894,8 @@ article:not(.portfolio-post) .full-image {
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
-  color: #666666;
+  font-family: 'Nunito', sans-serif;
+  color: #676B73;
   background-color: #FFFFFF;
 }
 
