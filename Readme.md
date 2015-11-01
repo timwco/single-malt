@@ -1,4 +1,4 @@
-## My Current Blog Theme - [http://timw.co](http://timw.co)
+## My Current Theme - [http://timw.co](http://timw.co)
 
 [ ![Codeship Status for twhitacre/single-malt](https://codeship.com/projects/037f2980-4471-0132-5566-224ad7020b2f/status?branch=master)](https://codeship.com/projects/44835)
 
