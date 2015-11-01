@@ -705,6 +705,7 @@ th {
 }
 .site-title a {
   color: inherit;
+  background-color: #f45145;
 }
 .site-title .logo-image {
   text-decoration: none;
@@ -3972,4 +3973,8 @@ a {
   -webkit-appearance: caret;
   -moz-appearance: caret;
   /* mobile firefox too! */
+}
+
+::selection{
+  background: rgba(244, 81, 69, 0.32);
 }
