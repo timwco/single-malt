@@ -145,6 +145,13 @@ function full_image_shortcode_init($atts, $content = null) {
 }
 add_shortcode('full-image', 'full_image_shortcode_init');
 
+// Add Code Short Code
+function code_block_shortcode_init($atts, $content = null) {
+  $return_string = '<pre>'.$content.'</pre>';
+  return $return_string;
+}
+add_shortcode('code', 'code_block_shortcode_init');
+
 function studio_new_excerpt_more( $more ) {
   return '...';
 }
