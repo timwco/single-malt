@@ -3975,10 +3975,9 @@ a {
 }
 
 .post-content pre {
-  background-color: #3F4049;
-  color: white;
-  padding: 15px;
-  border-radius: 10px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 3px;
 }
 .post-content pre p {
   margin: 0;
