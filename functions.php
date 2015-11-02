@@ -147,7 +147,9 @@ add_shortcode('full-image', 'full_image_shortcode_init');
 
 // Add Code Short Code
 function code_block_shortcode_init($atts, $content = null) {
-  $return_string = '<pre>'.$content.'</pre>';
+  $pattern = "/<p[^>]*><\\/p[^>]*>/";
+  $stripped_content = preg_replace($pattern, '', $content);
+  $return_string = '<pre>'.$stripped_content.'</pre>';
   return $return_string;
 }
 add_shortcode('code', 'code_block_shortcode_init');
