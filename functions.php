@@ -166,6 +166,13 @@ function studio_new_excerpt_more( $more ) {
 }
 add_filter('excerpt_more', 'studio_new_excerpt_more');
 
+// Replace single accent with code block
+function single_inline_codeblock($content) {
+  $content = preg_replace("/\`(.*)`/", "<span class='code-inline'>$1</span>", $content);
+  return $content;
+}
+add_filter('the_content','single_inline_codeblock');
+
 function studio_custom_excerpt_length( $length ) {
         return 22;
 }
