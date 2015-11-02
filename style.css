@@ -3973,3 +3973,10 @@ a {
 ::selection{
   background: rgba(244, 81, 69, 0.32);
 }
+
+.post-content pre {
+  background-color: #3F4049;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
