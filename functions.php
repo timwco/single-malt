@@ -168,7 +168,8 @@ add_filter('excerpt_more', 'studio_new_excerpt_more');
 
 // Replace single accent with code block
 function single_inline_codeblock($content) {
-  $content = preg_replace("/\`(.*)`/", "<span class='code-inline'>$1</span>", $content);
+  $content = preg_replace("/(`[^`]*`)/", "<span class='code-inline'>$0</span>", $content);
+  $content = str_replace('`', '', $content);
   return $content;
 }
 add_filter('the_content','single_inline_codeblock');
