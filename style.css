@@ -3980,3 +3980,7 @@ a {
   padding: 15px;
   border-radius: 10px;
 }
+.post-content pre p {
+  margin: 0;
+  line-height: .3em;
+}

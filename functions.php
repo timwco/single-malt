@@ -147,33 +147,15 @@ add_shortcode('full-image', 'full_image_shortcode_init');
 
 
 // Remove Empty Tags
-function remove_empty_tags_recursive ($str, $repto = NULL) {
-  //** Return if string not given or empty.
-  if (!is_string ($str) || trim ($str) == '')
-    return $str;
-
-  //** Recursive empty HTML tags.
-  return preg_replace (
-    //** Pattern written by Junaid Atari.
-    '/<([^<\/>]*)>([\s]*?|(?R))<\/\1>/imsU',
-
-    //** Replace with nothing if string empty.
-    !is_string ($repto) ? '' : $repto,
-
-    //** Source string
-    $str
-  );
+function remove_empty_p_tags ($str) {
+  $pattern = "/<p[^>]*><\\/p[^>]*>/"; // regular expression
+  return preg_replace($pattern, '', $str);
 }
 
 
 // Add Code Short Code
 function code_block_shortcode_init($atts, $content = null) {
-  $stripped_content = remove_empty_tags_recursive($content);
-  // echo "--------------------------------------------- Unstripped ------------------------------";
-  // echo $content;
-  // echo "--------------------------------------------- Stripped ------------------------------";
-  // echo $stripped_content;
-  // echo "--------------------------------------------- /Done ------------------------------";
+  $stripped_content = remove_empty_p_tags($content);
   $return_string = '<pre>'.$stripped_content.'</pre>';
   return $return_string;
 }
