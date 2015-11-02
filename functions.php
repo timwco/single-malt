@@ -88,8 +88,6 @@ function studio_scripts() {
   wp_register_script( 'modernizr', get_template_directory_uri() . '/javascripts/modernizr.custom.84485.js', array(), '', false );
   wp_enqueue_script( 'modernizr' );
 
-  wp_enqueue_style( 'studio-style', get_stylesheet_uri() );
-
   wp_enqueue_script( 'studio-navigation', get_template_directory_uri() . '/javascripts/navigation.js', array(), '20120206', true );
 
   wp_enqueue_script( 'studio-skip-link-focus-fix', get_template_directory_uri() . '/javascripts/skip-link-focus-fix.js', array(), '20130115', true );
