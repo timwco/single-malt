@@ -609,7 +609,7 @@ th {
 }
 @media only screen and (min-width: 769px) {
   .no-touch .site-branding {
-    padding-bottom: 34px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #ECECEC;
     margin-bottom: 20px;
     margin-top: -6px;
@@ -715,7 +715,7 @@ th {
 .site-description {
   margin: 0;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   color: #A9AAAA;
   line-height: 18px;
   word-wrap: break-word;
